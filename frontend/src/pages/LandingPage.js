@@ -267,17 +267,17 @@ export default function LandingPage() {
             <div className="font-bold text-lg mb-2">Autonomous Agentic AI Med Agent Platform</div>
             <div className="mb-4">Secure • Compliant • Human-in-the-Loop</div>
             <div className="flex flex-wrap justify-center gap-6 mb-4 text-sm">
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Solutions</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Capabilities</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Compliance</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Integrations</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Healthcare Partners</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Pilot Programs</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Contact</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Security</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Privacy</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Terms</button>
-              <button className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Support</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Solutions</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Capabilities</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Compliance</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Integrations</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Healthcare Partners</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Pilot Programs</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Contact</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Security</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Privacy</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Terms</button>
+              <button type="button" className="hover:underline bg-transparent border-0 cursor-pointer text-blue-200">Support</button>
             </div>
             <div className="text-xs">© Platform Name — Healthcare AI Systems</div>
           </footer>

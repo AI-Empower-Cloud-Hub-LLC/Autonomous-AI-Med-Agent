@@ -267,17 +267,17 @@ export default function LandingPage() {
             <div className="font-bold text-lg mb-2">Autonomous Agentic AI Med Agent Platform</div>
             <div className="mb-4">Secure • Compliant • Human-in-the-Loop</div>
             <div className="flex flex-wrap justify-center gap-6 mb-4 text-sm">
-              <button className="hover:underline">Solutions</button>
-              <button className="hover:underline">Capabilities</button>
-              <button className="hover:underline">Compliance</button>
-              <button className="hover:underline">Integrations</button>
-              <button className="hover:underline">Healthcare Partners</button>
-              <button className="hover:underline">Pilot Programs</button>
-              <button className="hover:underline">Contact</button>
-              <button className="hover:underline">Security</button>
-              <button className="hover:underline">Privacy</button>
-              <button className="hover:underline">Terms</button>
-              <button className="hover:underline">Support</button>
+              <button type="button" className="hover:underline">Solutions</button>
+              <button type="button" className="hover:underline">Capabilities</button>
+              <button type="button" className="hover:underline">Compliance</button>
+              <button type="button" className="hover:underline">Integrations</button>
+              <button type="button" className="hover:underline">Healthcare Partners</button>
+              <button type="button" className="hover:underline">Pilot Programs</button>
+              <button type="button" className="hover:underline">Contact</button>
+              <button type="button" className="hover:underline">Security</button>
+              <button type="button" className="hover:underline">Privacy</button>
+              <button type="button" className="hover:underline">Terms</button>
+              <button type="button" className="hover:underline">Support</button>
             </div>
             <div className="text-xs">© Platform Name — Healthcare AI Systems</div>
           </footer>

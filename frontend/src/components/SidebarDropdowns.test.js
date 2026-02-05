@@ -22,8 +22,9 @@ describe("SidebarDropdowns", () => {
     expect(screen.getByText("Care Tasks")).toBeInTheDocument();
   });
 
-  it("renders dropdown for >3 subpages and toggles open/close", () => {
-    // Use the 'Dashboard' domain from HOSPITAL_HEADER_DOMAINS (has >3 subpages)
+  it("renders Dashboard as a list (not a dropdown) with all subpages visible", () => {
+    // Use the 'Dashboard' domain from HOSPITAL_HEADER_DOMAINS
+    // Note: Dashboard is rendered as a simple list, not a dropdown (see SidebarDropdowns.js line 10-11)
     const domain = HOSPITAL_HEADER_DOMAINS.find(d => d.label === "Dashboard");
     render(
       <SidebarDropdowns
@@ -34,15 +35,11 @@ describe("SidebarDropdowns", () => {
         collapsed={false}
       />
     );
-    // Dropdown label
-    expect(screen.getByText("Dashboard")).toBeInTheDocument();
-    // Subpages visible by default
+    // Dashboard/Home domains are always rendered as lists, so subpages are visible
     expect(screen.getByText("Overview")).toBeInTheDocument();
     expect(screen.getByText("Active Cases")).toBeInTheDocument();
-    // Toggle dropdown
-    fireEvent.click(screen.getByText("Dashboard"));
-    // Subpages should disappear when closed
-    expect(screen.queryByText("Overview")).not.toBeInTheDocument();
+    expect(screen.getByText("Critical Alerts")).toBeInTheDocument();
+    expect(screen.getByText("Today's Tasks")).toBeInTheDocument();
   });
 
   it("calls onSubpageChange when a subpage is clicked", () => {

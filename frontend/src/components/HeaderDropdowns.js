@@ -8,7 +8,7 @@ export const HOSPITAL_HEADER_DOMAINS = [
       "Overview",
       "Active Cases",
       "Critical Alerts",
-      "Today’s Tasks",
+      "Today's Tasks",
       "System Health",
       "Usage Metrics",
     ],

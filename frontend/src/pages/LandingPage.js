@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../components/HeaderDropdowns";
 import { HOSPITAL_HEADER_DOMAINS } from "../components/HeaderDropdowns";
-import HeaderDropdowns from "../components/HeaderDropdowns";
 import Sidebar from "../components/Sidebar";
 import SidebarDropdowns from "../components/SidebarDropdowns";
 
@@ -268,17 +267,17 @@ export default function LandingPage() {
             <div className="font-bold text-lg mb-2">Autonomous Agentic AI Med Agent Platform</div>
             <div className="mb-4">Secure • Compliant • Human-in-the-Loop</div>
             <div className="flex flex-wrap justify-center gap-6 mb-4 text-sm">
-              <a href="#" className="hover:underline">Solutions</a>
-              <a href="#" className="hover:underline">Capabilities</a>
-              <a href="#" className="hover:underline">Compliance</a>
-              <a href="#" className="hover:underline">Integrations</a>
-              <a href="#" className="hover:underline">Healthcare Partners</a>
-              <a href="#" className="hover:underline">Pilot Programs</a>
-              <a href="#" className="hover:underline">Contact</a>
-              <a href="#" className="hover:underline">Security</a>
-              <a href="#" className="hover:underline">Privacy</a>
-              <a href="#" className="hover:underline">Terms</a>
-              <a href="#" className="hover:underline">Support</a>
+              <button className="hover:underline">Solutions</button>
+              <button className="hover:underline">Capabilities</button>
+              <button className="hover:underline">Compliance</button>
+              <button className="hover:underline">Integrations</button>
+              <button className="hover:underline">Healthcare Partners</button>
+              <button className="hover:underline">Pilot Programs</button>
+              <button className="hover:underline">Contact</button>
+              <button className="hover:underline">Security</button>
+              <button className="hover:underline">Privacy</button>
+              <button className="hover:underline">Terms</button>
+              <button className="hover:underline">Support</button>
             </div>
             <div className="text-xs">© Platform Name — Healthcare AI Systems</div>
           </footer>
